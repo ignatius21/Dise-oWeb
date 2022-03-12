@@ -145,7 +145,40 @@ h1,h2,h3{
 }
 
 /*servicios*/
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
 
-.servicios{
-    display: grid;
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio h3{
+    color: #5498cb;
+    font-weight: bold;
+    
+
+}
+
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background: #47A3C1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
 }
