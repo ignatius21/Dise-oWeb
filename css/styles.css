@@ -60,12 +60,16 @@ body{
 
 .btn:hover{
     cursor: pointer;
+    background-color:#5848FA;
+    color: #fff;
 }
 .sombra{
     box-shadow: 0px 7px 10px -2px rgba(179,179,179,0.87);
     padding: 2rem;
     border-radius: 1rem;
 }
+
+
 
 /* tipografia */
 
@@ -216,15 +220,13 @@ h1,h2,h3{
 /*contacto*/
 
 .formulario{
-    background-color:#7c7c7c;
+    background-color: #7F7F80;
     width: min(60rem,100%);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
-    
-    
-
 }
+
 
 .formulario fieldset{
     border: none;
@@ -234,7 +236,7 @@ h1,h2,h3{
     text-align: center;
     font-weight: bold;
     font-size: 1.8rem;
-    color:#5498cb;
+    color:#000000;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -259,7 +261,7 @@ h1,h2,h3{
 }
 
 .campo label{
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;
@@ -275,16 +277,21 @@ h1,h2,h3{
     padding-bottom: 1.5rem;
     border-radius: .5rem;
     background: transparent;
-    border-bottom: 3px solid #65AED6;
+    border-bottom: 3px solid #D0DAFB;
     outline: none;
     color: #fff;
+    font-size: 2rem;
+    font-weight: 100px;
 }
 
 .input-text:focus{
     background: linear-gradient(to bottom,transparent,#9C9C9C);
-
+    border-bottom: 3px solid #B8D8E2;
 }
 
+.input-text:hover{
+    cursor: pointer;
+}
 
 
 .footer{
