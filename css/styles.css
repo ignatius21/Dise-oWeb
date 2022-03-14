@@ -1,24 +1,9 @@
-:root{
-    --blanco: #ffffff;
-    --negro: #000000;
-    --primario: #5498cb;
-    --secundario: #7c7c7c;
-}
-
-
 /* globales */
 
 html{
     font-size: 62.5%;
     box-sizing: border-box; /* hack para box model */
     scroll-snap-type: y mandatory;
-}
-/*scroll-snap */
-.servicios,
-.navegacion-principal,
-.formulario{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 
 *, *::before, *::after{
